@@ -23,48 +23,37 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="jumbotron">
+                <div class="jumbotron text-center">
                     <h2>
-                        Hello, world!
+                        Detect your viruses!
                     </h2>
                     <p>
-                        This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+                        Website design specifically for detecting viruses in files.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row mx-auto text-center">
+            <div class="col-md-6">
                 <h2>
                     Hashing File
                 </h2>
                 <p>
-                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    Upload a file to hash it. The file will be hashed using the MD5 algorithm.
                 </p>
                 <p>
                     <a class="btn" href="hashFile.php">View details »</a>
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h2>
                     Scan File
                 </h2>
                 <p>
-                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    Upload a file to scan for viruses. The file will be hashed and compared to a list of known virus hashes.
                 </p>
                 <p>
-                    <a class="btn" href="#">View details »</a>
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h2>
-                    Coming Soon :tm:
-                </h2>
-                <p>
-                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-                </p>
-                <p>
-                    <a class="btn" href="#">View details »</a>
+                    <a class="btn" href="scanFile.php">View details »</a>
                 </p>
             </div>
         </div>
